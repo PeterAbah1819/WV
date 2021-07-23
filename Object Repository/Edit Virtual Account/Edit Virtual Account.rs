@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{ \n\&quot;expires_on\&quot;:\&quot;2021-11-01\&quot;, \n\n\&quot;use_frequency\&quot;:\&quot;5\&quot;, \n\n\&quot;min_amount\&quot;:2000, \n\n\&quot;max_amount\&quot;:12000,  \n\n\&quot;callback_url\&quot;:\&quot;http://callbackurl.com\&quot;, \n\n\&quot;meta_data\&quot;:{\&quot;somedatakey\&quot;:\&quot;somedatavalue\&quot;}, \n\n\&quot;destination_nuban\&quot;:\&quot;4004693468\&quot;  \n\n}&quot;,
+  &quot;text&quot;: &quot;{ \n\&quot;expires_on\&quot;:\&quot;2021-11-01\&quot;, \n\n\&quot;use_frequency\&quot;:\&quot;5\&quot;, \n\n\&quot;min_amount\&quot;:2000, \n\n\&quot;max_amount\&quot;:12000,  \n\n\&quot;callback_url\&quot;:\&quot;http://callbackurl.com\&quot;, \n\n\&quot;meta_data\&quot;:{\&quot;somedatakey\&quot;:\&quot;somedatavalue\&quot;}, \n\n\&quot;destination_nuban\&quot;:\&quot;0427521260\&quot;  \n\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
