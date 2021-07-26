@@ -32,7 +32,7 @@
    <katalonVersion>8.0.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>PUT</restRequestMethod>
+   <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://api.woven.finance/v2/api/vnubans/?vnuban=4004693468</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
