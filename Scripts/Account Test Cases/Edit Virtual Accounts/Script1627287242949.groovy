@@ -18,8 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-
+//Send the request and save it the http response in variable response
 response = WS.sendRequest(findTestObject('Create Account/Edit Virtual Account'))
+//Verify that the response gotten and saved in response is 200
 WS.verifyResponseStatusCode(response, 200)
 //Verify that the response has the value a messge in the body stating the process was completed successfully.
 WS.verifyElementPropertyValue(response, 'message', 'The process was completed successfully')
