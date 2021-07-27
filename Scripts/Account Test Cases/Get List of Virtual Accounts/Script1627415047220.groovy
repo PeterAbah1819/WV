@@ -17,16 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //Send the request and save it the http response in variable response
-response = WS.sendRequest(findTestObject('Create Account/Edit Virtual Account'))
+response = WS.sendRequest(findTestObject('Create Account/Get list of virtual accounts'))
+
 //Verify that the response gotten and saved in response is 200
 WS.verifyResponseStatusCode(response, 200)
+
 //Verify that the response has the value a messge in the body stating the process was completed successfully.
 WS.verifyElementPropertyValue(response, 'message', 'The process was completed successfully')
+
 //Verify that the response has the value 1 for number of pages info in the body
 WS.verifyElementPropertyValue(response, 'data.page_info.total', '1')
+
 //Verify that the response has the value 1 for total pages in the body
 WS.verifyElementPropertyValue(response, 'data.page_info.total_pages', '1')
+
 //Verify that the response has the value jones' email in the body
 WS.verifyElementPropertyValue(response, 'data.vnubans[0].account_email', 'jones_adelaide@mail.com')
+

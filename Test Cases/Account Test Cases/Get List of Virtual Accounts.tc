@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Edit Virtual Accounts</name>
+   <name>Get List of Virtual Accounts</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7bd11e5f-9d2a-4fa9-9b3b-bc54c902a593</testCaseGuid>
